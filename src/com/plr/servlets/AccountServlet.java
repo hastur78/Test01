@@ -21,7 +21,7 @@ import javax.servlet.http.HttpServletResponse;
  */
 
 @WebServlet(asyncSupported = true, urlPatterns = {"/account", "/accountServlet"}, initParams = {@WebInitParam(name = "type", value = "checking2")})
-public class AccountServlet extends HttpServlet {
+public class AccountServlet extends HttpServlet {  
 	
 	private String par = "";
 	
