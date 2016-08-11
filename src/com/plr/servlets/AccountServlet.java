@@ -20,7 +20,7 @@ import javax.servlet.http.HttpServletResponse;
  * Copyright (c)2009 Decisyon S.r.l.
  */
 
-@WebServlet(asyncSupported = true, urlPatterns = {"/5", "/accountServlet"}, initParams = {@WebInitParam(name = "type", value = "checking2")})
+@WebServlet(asyncSupported = true, urlPatterns = {"/account", "/accountServlet"}, initParams = {@WebInitParam(name = "type", value = "checking2")})
 public class AccountServlet extends HttpServlet {
 	
 	private String par = "";
