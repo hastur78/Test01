@@ -25,7 +25,7 @@ public class Test2 extends HttpServlet {
 			out.println("<html><head>");
 			out.println("<title>MyServlet</title>");
 			out.println("</head></body><h1>MyFirstServlet</h1>");
-			out.println("</body></html>");
+			out.println("</body></html>");    
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
