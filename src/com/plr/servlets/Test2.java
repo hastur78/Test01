@@ -17,13 +17,13 @@ import javax.servlet.http.HttpServletResponse;
  * Copyright (c)2009 Decisyon S.r.l.
  */
 @WebServlet("/faccount")
-public class Test2 extends HttpServlet {
+public class Test2 extends HttpServlet {  
 	
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		try (PrintWriter out = resp.getWriter()) {
 			out.println("<html><head>");
-			out.println("<title>MyServlet</title>");
+			out.println("<title>My2Servlet</title>");
 			out.println("</head></body><h1>MyFirstServlet</h1>");
 			out.println("</body></html>");    
 		} catch (Exception e) {
