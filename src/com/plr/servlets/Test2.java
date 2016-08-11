@@ -23,7 +23,7 @@ public class Test2 extends HttpServlet {
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		try (PrintWriter out = resp.getWriter()) {
 			out.println("<html><head>");
-			out.println("<title>feature_x</title>");
+			out.println("<title>feature_3</title>");
 			out.println("</head></body><h1>MyFirstServlet</h1>");
 			out.println("</body></html>");    
 		} catch (Exception e) {
